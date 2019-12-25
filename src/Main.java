@@ -31,6 +31,7 @@ public class Main{
         third.whatCommon(arr);
         System.out.println("");
 
+        System.out.println("Четвёртое задание:");
         Map fourth=new Map("ыванфсмВенмМкенгЫФВсчывпЛымсывЦУсчZSD23%ASDCA3rCaqweY^asxcsc$&sdcIdcxscF");
         fourth.count();
     }

@@ -22,7 +22,7 @@ public class ArrList<T> {
 
     /**
      * вывод массива на консоль с помощью foreach
-     * @param array массив
+     * @param array массив для печати
      */
     private void printEach (ArrayList<T> array){
         System.out.print("{");
@@ -33,7 +33,9 @@ public class ArrList<T> {
     }
 
     /**
-     * очищение массива от повторяющихся без печати
+     * очищение массива от повторяющихся элементов
+     * @param ar массив
+     * @return массив после очистки
      */
     private ArrayList<T> clear (ArrayList<T> ar){
         ArrayList<T> see=new  ArrayList<>();
@@ -58,7 +60,7 @@ public class ArrList<T> {
 
     /**
      * печать элементов обеих коллекций
-     * @param second
+     * @param second вторая колекция
      */
     public void whatCommon (ArrayList<T> second){
         System.out.println("Первая коллекция:");
